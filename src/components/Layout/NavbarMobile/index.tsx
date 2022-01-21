@@ -29,23 +29,23 @@ const index = () => {
           onClick={() => setMenu(false)}
         />
         <Link href="/">
-          <span className="text-white cursor-pointer hover:text-primary">
+          <span className="text-white cursor-pointer hover:text-primary" onClick={() => setMenu(false)}>
             Home
           </span>
         </Link>
         <Link href="/services">
-          <span className="text-white cursor-pointer hover:text-primary">
+          <span className="text-white cursor-pointer hover:text-primary" onClick={() => setMenu(false)}>
             Services
           </span>
         </Link>
-        <Link href="/work">
-          <span className="text-white cursor-pointer hover:text-primary">
-            Work
+        <Link href="/about-us">
+          <span className="text-white cursor-pointer hover:text-primary" onClick={() => setMenu(false)}>
+            About us
           </span>
         </Link>
-        <Link href="/about-us">
-          <span className="text-white cursor-pointer hover:text-primary">
-            About us
+        <Link href="/contact-us">
+          <span className="text-white cursor-pointer hover:text-primary" onClick={() => setMenu(false)}>
+            Contact us
           </span>
         </Link>
       </div>

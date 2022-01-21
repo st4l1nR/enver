@@ -7,7 +7,7 @@ export default function Home() {
   const [menu, setMenu] = useState(false);
   return (
     <main>
-      <div className="max-w-6xl px-5 mx-auto">
+      <div className="max-w-6xl px-5 mx-auto md:px-0">
         {/*Section 1*/}
         <div className="flex flex-col md:flex-row ">
           <div className="flex flex-col w-full space-y-8 text-left text-white md:w-1/3 md:mt-32 ">
@@ -21,7 +21,7 @@ export default function Home() {
             </span>
             <Link href="/services">
               <button className="flex items-center justify-center h-12 space-x-2 font-bold text-white transition-shadow rounded-sm w-52 bg-primary filter hover:brightness-125 md:mx-0 hover:shadow-md hover:shadow-primary/50">
-                <span>Our Services</span>
+                <span>Our Services</span>n
                 <img
                   className="w-5 h-5"
                   src="/icons/arrow-right-up.svg"

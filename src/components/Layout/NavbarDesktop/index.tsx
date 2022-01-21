@@ -22,11 +22,6 @@ const index = () => {
               Services
             </span>
           </Link>
-          <Link href="/work">
-            <span className="text-white cursor-pointer hover:text-primary">
-              Work
-            </span>
-          </Link>
           <Link href="/about-us">
             <span className="text-white cursor-pointer hover:text-primary">
               About us
