@@ -21,7 +21,7 @@ export default function Home() {
             </span>
             <Link href="/services">
               <button className="flex items-center justify-center h-12 space-x-2 font-bold text-white transition-shadow rounded-sm w-52 bg-primary filter hover:brightness-125 md:mx-0 hover:shadow-md hover:shadow-primary/50">
-                <span>Our Services</span>n
+                <span>Our Services</span>
                 <img
                   className="w-5 h-5"
                   src="/icons/arrow-right-up.svg"
